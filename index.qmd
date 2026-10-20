@@ -2,7 +2,7 @@
 title: "Nitish Nigam"
 pagetitle: "Behavioural environmental economics and public policy"
 body-classes: home
-description: "Behavioural environmental economist working on public policy, at the Chandragupt Institute of Management Patna."
+description: "Nitish Nigam"
 page-layout: full
 image: images/profile.jpg
 listing:
