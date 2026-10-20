@@ -1,9 +1,9 @@
 ---
 title: "Nitish Nigam"
-pagetitle: "Nitish Nigam"
+pagetitle: "Nitish Nigam | Behavioural environmental economics and public policy"
 body-classes: home
-description: "Economist working on sustainability transitions, technology adoption and climate resilience in eastern India."
-page-layout: article
+description: "Behavioural environmental economist working on public policy, at the Chandragupt Institute of Management Patna."
+page-layout: full
 image: images/profile.jpg
 listing:
   - id: featured
@@ -21,77 +21,106 @@ listing:
     date-format: "MMM YYYY"
 ---
 
-::: {.home-hero}
-
-::: {.hero-text}
-
 ```{=html}
-<h1 class="hero-name">Nitish Nigam</h1>
+<div class="column-screen">
+<section class="hero wrap">
+  <div class="hero-photo">
+    <img src="images/profile.jpg" alt="Black-and-white portrait of Nitish Nigam">
+  </div>
+  <div class="hero-text">
+    <h1 class="hero-name">Nitish Nigam</h1>
+    <p class="hero-position">Behavioural environmental economist working on public policy</p>
+    <p class="hero-role">Assistant Professor of Economics, Chandragupt Institute of Management Patna</p>
+    <nav class="hero-links" aria-label="Contact and profiles">
+      <a class="primary" href="mailto:nitish@cimp.ac.in">Email</a>
+      <a href="https://scholar.google.com/citations?user=vLehcNkAAAAJ&amp;hl=en">Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-9835-9550">ORCID</a>
+      <a href="https://www.linkedin.com/in/thenitishnigam/">LinkedIn</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </div>
+</section>
+</div>
 ```
 
-::: {.hero-role}
-Assistant Professor of Economics<br>
-Chandragupt Institute of Management Patna
+::: {.column-screen}
+::: {.wrap}
+::: {.bio}
+Nitish Nigam is a behavioural environmental economist working on public policy. He studies the decisions that shape environmental outcomes, from a household weighing an electric vehicle to a farmer deciding whether to adopt climate-resilient practices, and asks how public policy can be designed around the way people actually make those choices.
+
+His research combines discrete choice experiments, causal inference and large-scale primary surveys, much of it fielded in Bihar, and has appeared in the *Journal of Environmental Management* and the *International Journal of Social Economics*. He is Project Director of an ICSSR-funded study on climate-smart agriculture adoption and Co-Principal Investigator on studies for the Bihar State Biodiversity Board and the Government of Bihar.
+
+He is an Assistant Professor of Economics at the Chandragupt Institute of Management Patna, where he also earned his doctorate (FPM) in Economics. Before joining the faculty, he was a Research Associate with the State Transformation Cell of the State Support Mission (NITI Aayog).
+:::
+:::
 :::
 
-::: {.hero-bio}
-Nitish Nigam is an Assistant Professor of Economics at the Chandragupt Institute of Management Patna. His research lies at the intersection of behavioural economics, environmental economics and public policy, with a focus on sustainability transitions, technology adoption and climate resilience in emerging economies. Drawing on causal inference, discrete choice experiments and large-scale primary surveys, he examines how households and farmers respond to new technologies and public programmes, and what those responses imply for the design of policy.
+::: {.band .column-screen}
+::: {.wrap}
+## Research focus
 
-His work has appeared in the *Journal of Environmental Management* and the *International Journal of Social Economics*. He is Project Director of an ICSSR-funded study on the adoption of climate-smart agriculture, and Co-Principal Investigator on studies of urban biodiversity governance and biological resource value chains for the Bihar State Biodiversity Board. Before joining the CIMP faculty, he served as a Research Associate with the State Transformation Cell of the State Support Mission (NITI Aayog) in Patna.
+::: {.focus-grid}
 
-He holds a doctorate (FPM) in Economics from CIMP, an MA in Economics from the Central University of South Bihar and a BA (Hons) in Economics from Patna University. At CIMP he teaches Business Economics and Business Marketing, and he regularly leads executive education and faculty development programmes on causal inference, choice experiments, survey design and applied research methods.
+::: {.focus}
+### Behaviour and the energy transition
+What drives households to adopt or reject electric vehicles, measured through choice experiments with consumers in Bihar, and which state policies shift those choices.
 :::
 
-::: {.hero-links}
-[Email](mailto:nitish@cimp.ac.in) [Google Scholar](https://scholar.google.com/citations?user=vLehcNkAAAAJ&hl=en) [ORCID](https://orcid.org/0000-0002-9835-9550) [LinkedIn](https://www.linkedin.com/in/thenitishnigam/) [GitHub](https://github.com/thenitishnigam) [CV](cv.qmd)
+::: {.focus}
+### Farmers' decisions under climate risk
+Why farmers take up or pass over climate-smart practices, and which climate-resilient interventions farmers in Bihar's aspirational blocks value most.
+:::
+
+::: {.focus}
+### Biodiversity and natural resource governance
+How urban biodiversity is governed in Bihar, and how biological resources are harvested, traded and valued, in studies for the Bihar State Biodiversity Board.
+:::
+
+::: {.focus}
+### Institutions and public programmes
+Whether local institutions make agricultural schemes work for beneficiary households, and whether female supervision raises women's participation in public employment programmes.
 :::
 
 :::
-
-::: {.hero-photo}
-![](images/profile.jpg){fig-alt="Black-and-white portrait of Nitish Nigam"}
+:::
 :::
 
-:::
+::: {.column-screen}
+::: {.wrap}
+::: {.engage}
 
-::: {.themes}
+::: {.engage-text}
+## Policy engagement
 
-::: {.theme-list}
+His research is designed to be used. He works with government agencies on the questions they face, and has spent time inside government as well as alongside it.
 
-## What I work on
+```{=html}
+<ul class="partner-list">
+  <li><strong>NITI Aayog</strong> <span>State Support Mission and DMEO</span></li>
+  <li><strong>Government of Bihar</strong> <span>Planning and Development Department</span></li>
+  <li><strong>Bihar State Biodiversity Board</strong></li>
+  <li><strong>Indian Council of Social Science Research</strong></li>
+  <li><strong>Ministry of MSME</strong> <span>Government of India</span></li>
+</ul>
+```
 
-::: {.theme}
-### Energy transition
-Why Indian households buy electric vehicles or hold back, and which state policies change that, studied through choice experiments with consumers in Bihar and analysis across Indian states.
-:::
-
-::: {.theme}
-### Climate-resilient agriculture
-Which climate-smart practices farmers adopt and why, and which interventions farmers in Bihar's aspirational blocks actually prefer.
-:::
-
-::: {.theme}
-### Biodiversity and natural resources
-How Bihar governs its urban biodiversity, and how biological resources are harvested, traded and given value, in studies for the Bihar State Biodiversity Board.
-:::
-
-::: {.theme}
-### Public programmes
-Whether institutions make agricultural schemes work for beneficiary households, and whether female supervision raises women's participation in public employment programmes.
-:::
-
+[Policy and consulting work](policy.qmd)
 :::
 
 {{< include _fieldwork-map.md >}}
 
 :::
 
+::: {.section-head}
 ## Selected research
+
+[All research](research.qmd)
+:::
 
 ::: {#featured}
 :::
 
-[All research](research.qmd)
-
 ::: {#latest-writing}
+:::
+:::
 :::

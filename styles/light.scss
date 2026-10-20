@@ -1,34 +1,35 @@
 /*-- scss:defaults --*/
-// Palette drawn from the Gangetic plain: river mist, river-teal ink,
-// paddy green, silt grey and one mustard-field accent.
+// Clean and modern: white page, deep navy as the only accent, Public Sans throughout.
 
-$mist:        #F3F6F3;   // page background
-$ink:         #22342F;   // body text
-$ink-strong:  #14302A;   // headings, name
-$river:       #1D6A5B;   // links
-$muted:       #56675F;   // secondary text (dates, venues)
-$hair:        #D3DCD6;   // dividers
-$paddy-tint:  #DCE8D6;   // map fill, subtle highlights
-$mustard:     #D9A000;   // single accent: marks only, never body text
+$page:        #FFFFFF;   // page background
+$band:        #F3F5F9;   // full-width section bands
+$ink:         #1E2735;   // body text
+$ink-strong:  #0F1A2C;   // headings, name
+$navy:        #1B3A6B;   // the accent: links, buttons, active states
+$navy-dark:   #122A50;   // hover
+$muted:       #5A6576;   // secondary text
+$hair:        #E2E6EC;   // dividers
+$tint:        #E3EAF4;   // map fill, subtle highlights
 $surface:     #FFFFFF;   // photo mats, code
+$on-navy:     #FFFFFF;   // text on navy buttons
 
-$body-bg: $mist;
+$body-bg: $page;
 $body-color: $ink;
-$link-color: $river;
-$primary: $river;
+$link-color: $navy;
+$primary: $navy;
 $headings-color: $ink-strong;
 
-$navbar-bg: $mist;
+$navbar-bg: $page;
 $navbar-fg: $ink;
-$navbar-hl: $river;
-$footer-bg: $mist;
+$navbar-hl: $navy;
+$footer-bg: $page;
 $footer-fg: $muted;
-$code-bg: $surface;
+$code-bg: $band;
 
-$font-family-sans-serif: "Alegreya Sans", "Gill Sans", "Segoe UI", sans-serif;
-$font-family-serif: "Alegreya", Georgia, "Times New Roman", serif;
-$font-family-base: $font-family-serif;
-$headings-font-family: $font-family-serif;
-$font-size-root: 19px;
-$line-height-base: 1.6;
-$headings-font-weight: 600;
+$font-family-sans-serif: "Public Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: $font-family-sans-serif;
+$font-size-root: 17px;
+$line-height-base: 1.65;
+$headings-font-weight: 700;
+$grid-body-width: 760px;

@@ -1,33 +1,35 @@
 /*-- scss:defaults --*/
-// Dark variant: the same river at dusk.
+// Dark variant of the same system.
 
-$mist:        #111A18;
-$ink:         #D9E3DE;
-$ink-strong:  #EEF3F0;
-$river:       #7CC3AF;
-$muted:       #98AAA2;
-$hair:        #2A3935;
-$paddy-tint:  #22362E;
-$mustard:     #E8B530;
-$surface:     #18231F;
+$page:        #0E1522;
+$band:        #141D2D;
+$ink:         #DCE3EE;
+$ink-strong:  #F2F5FA;
+$navy:        #8FB3EE;   // lightened so links stay readable on dark
+$navy-dark:   #B5CCF5;
+$muted:       #9AA6B8;
+$hair:        #243046;
+$tint:        #1E2B44;
+$surface:     #141D2D;
+$on-navy:     #0E1522;
 
-$body-bg: $mist;
+$body-bg: $page;
 $body-color: $ink;
-$link-color: $river;
-$primary: $river;
+$link-color: $navy;
+$primary: $navy;
 $headings-color: $ink-strong;
 
-$navbar-bg: $mist;
+$navbar-bg: $page;
 $navbar-fg: $ink;
-$navbar-hl: $river;
-$footer-bg: $mist;
+$navbar-hl: $navy;
+$footer-bg: $page;
 $footer-fg: $muted;
-$code-bg: $surface;
+$code-bg: $band;
 
-$font-family-sans-serif: "Alegreya Sans", "Gill Sans", "Segoe UI", sans-serif;
-$font-family-serif: "Alegreya", Georgia, "Times New Roman", serif;
-$font-family-base: $font-family-serif;
-$headings-font-family: $font-family-serif;
-$font-size-root: 19px;
-$line-height-base: 1.6;
-$headings-font-weight: 600;
+$font-family-sans-serif: "Public Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: $font-family-sans-serif;
+$font-size-root: 17px;
+$line-height-base: 1.65;
+$headings-font-weight: 700;
+$grid-body-width: 760px;
