@@ -14,7 +14,7 @@ Every push to `master` rebuilds and publishes the site automatically (about two 
 | Policy and consulting | `policy.qmd` |
 | Teaching and training | `teaching.qmd` |
 | CV | `cv.qmd` |
-| Profile photo | add `images/profile.jpg`, then change `images/profile.svg` to `images/profile.jpg` in `index.qmd` |
+| Profile photo | replace `images/profile.jpg` (4:5 portrait, about 480 × 600 px) |
 | Menu, footer, site title | `_quarto.yml` |
 | Colours and fonts | `styles/light.scss`, `styles/dark.scss`, `styles/rules.scss` |
 

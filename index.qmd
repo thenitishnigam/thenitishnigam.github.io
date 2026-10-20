@@ -4,6 +4,7 @@ pagetitle: "Nitish Nigam"
 body-classes: home
 description: "Economist working on sustainability transitions, technology adoption and climate resilience in eastern India."
 page-layout: article
+image: images/profile.jpg
 listing:
   - id: featured
     contents: data/publications.yml
@@ -48,7 +49,7 @@ He holds a doctorate (FPM) in Economics from CIMP, an MA in Economics from the C
 :::
 
 ::: {.hero-photo}
-![](images/profile.svg){fig-alt="Portrait of Nitish Nigam"}
+![](images/profile.jpg){fig-alt="Black-and-white portrait of Nitish Nigam"}
 :::
 
 :::
