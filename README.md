@@ -13,7 +13,7 @@ Every push to `master` rebuilds and publishes the site automatically (about two 
 | Talks | `data/talks.yml` |
 | Policy and consulting | `policy.qmd` |
 | Teaching and training | `teaching.qmd` |
-| CV summary | `cv.qmd`; replace the PDF at `files/cv.pdf` |
+| CV | `cv.qmd` |
 | Profile photo | add `images/profile.jpg`, then change `images/profile.svg` to `images/profile.jpg` in `index.qmd` |
 | Menu, footer, site title | `_quarto.yml` |
 | Colours and fonts | `styles/light.scss`, `styles/dark.scss`, `styles/rules.scss` |

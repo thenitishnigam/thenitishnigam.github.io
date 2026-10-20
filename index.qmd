@@ -34,9 +34,11 @@ Chandragupt Institute of Management Patna
 :::
 
 ::: {.hero-bio}
-I work at the intersection of behavioural economics, environmental economics and public policy. My research looks at sustainability transitions, technology adoption and climate resilience in emerging economies, from how households in Bihar choose electric vehicles to which climate-resilient practices farmers are willing to take up.
+Nitish Nigam is an Assistant Professor of Economics at the Chandragupt Institute of Management Patna. His research lies at the intersection of behavioural economics, environmental economics and public policy, with a focus on sustainability transitions, technology adoption and climate resilience in emerging economies. Drawing on causal inference, discrete choice experiments and large-scale primary surveys, he examines how households and farmers respond to new technologies and public programmes, and what those responses imply for the design of policy.
 
-I use causal inference, discrete choice experiments and large-scale primary surveys. I currently lead an ICSSR-funded project on climate-smart agriculture and co-lead studies for the Bihar State Biodiversity Board. Before joining the CIMP faculty, where I also completed my doctorate, I was a Research Associate with the State Transformation Cell of the State Support Mission (NITI Aayog) in Patna.
+His work has appeared in the *Journal of Environmental Management* and the *International Journal of Social Economics*. He is Project Director of an ICSSR-funded study on the adoption of climate-smart agriculture, and Co-Principal Investigator on studies of urban biodiversity governance and biological resource value chains for the Bihar State Biodiversity Board. Before joining the CIMP faculty, he served as a Research Associate with the State Transformation Cell of the State Support Mission (NITI Aayog) in Patna.
+
+He holds a doctorate (FPM) in Economics from CIMP, an MA in Economics from the Central University of South Bihar and a BA (Hons) in Economics from Patna University. At CIMP he teaches Business Economics and Business Marketing, and he regularly leads executive education and faculty development programmes on causal inference, choice experiments, survey design and applied research methods.
 :::
 
 ::: {.hero-links}

@@ -1,68 +1,149 @@
 ---
 title: "Curriculum vitae"
-description: "A summary below. The full CV is a PDF."
+description: "Last updated October 2026"
+body-classes: cv-page
 ---
 
-[Download the full CV (PDF)](files/cv.pdf){.btn-cv}
-
-## Positions
-
-::: {.entry}
-[Assistant Professor, Economics]{.entry-head}
-
-[Chandragupt Institute of Management Patna. June 2025 to present.]{.entry-sub}
+::: {.cv-contact}
+Patna, Bihar, India 800001<br>
+[nitish@cimp.ac.in](mailto:nitish@cimp.ac.in)<br>
+[LinkedIn](https://www.linkedin.com/in/thenitishnigam/), [Google Scholar](https://scholar.google.com/citations?user=vLehcNkAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-9835-9550)
 :::
 
-::: {.entry}
-[Research Associate]{.entry-head}
+## Summary
 
-[State Transformation Cell, State Support Mission (NITI Aayog), Patna. October 2024 to June 2025.]{.entry-sub}
-:::
-
-## Education
-
-::: {.entry}
-[Fellow Programme in Management (FPM, PhD), Economics]{.entry-head}
-
-[Chandragupt Institute of Management Patna, 2020 to 2025]{.entry-sub}
-:::
-
-::: {.entry}
-[MA in Economics]{.entry-head}
-
-[Central University of South Bihar, Gaya, 2018 to 2020]{.entry-sub}
-:::
-
-::: {.entry}
-[BA (Hons) in Economics]{.entry-head}
-
-[Patna University, 2015 to 2018]{.entry-sub}
-:::
+Assistant Professor of Economics working at the intersection of behavioural economics, environmental economics, and public policy. Research focuses on sustainability transitions, technology adoption, and climate resilience in emerging economies using causal inference, discrete choice experiments, and large-scale primary surveys. Published in ABDC A and Scopus Q1 journals, with experience in externally funded research, executive education, and policy engagement.
 
 ## Research areas
 
-Development economics, behavioural economics, environmental economics and public policy.
+Development Economics, Behavioural Economics, Environmental Economics, Public Policy
 
-## Grants
+## Education
 
-::: {.entry}
-[Indian Council of Social Science Research, 2026]{.entry-head}
+::: {.cv-row}
+[Fellow Programme in Management (FPM/PhD), Economics]{.cv-what}
 
-[Determinants of climate-smart agriculture adoption: Behavioral and policy evidence from Indian states. Project Director.]{.entry-sub}
+[2020 – 2025]{.cv-when}
+
+[Chandragupt Institute of Management Patna, Patna, Bihar, India]{.cv-where}
 :::
 
-## Service
+::: {.cv-row}
+[MA in Economics]{.cv-what}
 
-::: {.entry}
-[Referee]{.entry-head}
+[2018 – 2020]{.cv-when}
 
-[*Sustainable Cities and Society* (Elsevier), *Heliyon* (Elsevier)]{.entry-sub}
+[Central University of South Bihar, Gaya Ji, Bihar, India]{.cv-where}
 :::
 
-::: {.entry}
-[Alumni Coordinator]{.entry-head}
+::: {.cv-row}
+[BA (Hons) in Economics]{.cv-what}
 
-[Alumni Committee, Chandragupt Institute of Management Patna]{.entry-sub}
+[2015 – 2018]{.cv-when}
+
+[Patna University, Patna, Bihar, India]{.cv-where}
 :::
 
-Publications, working papers and talks are listed in full on the [Research](research.qmd) and [Talks](talks.qmd) pages.
+## Experience
+
+::: {.cv-row}
+[Assistant Professor, Economics]{.cv-what}
+
+[Jun 2025 – Present]{.cv-when}
+
+[Chandragupt Institute of Management Patna, Patna, Bihar]{.cv-where}
+:::
+
+::: {.cv-row}
+[Research Associate]{.cv-what}
+
+[Oct 2024 – Jun 2025]{.cv-when}
+
+[State Transformation Cell, State Support Mission (NITI Aayog), Patna, Bihar]{.cv-where}
+:::
+
+## Publications
+
+1. **Nigam, N.**, Senapati, S., Samanta, D., & Sharma, A. (2024). Consumer behavior towards new energy vehicles: Developing a theoretical framework. *Journal of Environmental Management*, 370, 122817. [https://doi.org/10.1016/j.jenvman.2024.122817](https://doi.org/10.1016/j.jenvman.2024.122817) [ABDC A, Scopus Q1]{.cv-tag}
+
+2. **Nigam, N.**, Samanta, D., & Senapati, S. (2024). Determinants of Electric Vehicle Adoption: Insights from Indian States. *International Journal of Social Economics*, 52(1), 91–107. [https://doi.org/10.1108/IJSE-06-2023-0479](https://doi.org/10.1108/IJSE-06-2023-0479) [ABDC B, Scopus Q1]{.cv-tag}
+
+3. Verma, R., Gangwani, K., & **Nigam, N.** (2025). Mediversal Hospital: Segmentation, Targeting, and Positioning Dilemma. *Ivey Publishing*. [Case page](https://www.iveypublishing.ca/s/product/mediversal-hospital-segmentation-targeting-and-positioning-dilemma/01tOF000008Kr3ZYAS)
+
+4. **Nigam, N.**, Verma, R., & Sharma, A. (2022). Tax Mitra: Easing Financial Access in Rural India. *The Case Centre*. [Case page](https://www.thecasecentre.org/products/view?id=182589)
+
+5. Samanta, D., & **Nigam, N.** (2024). Opportunities in Dairy and Fisheries Sector. *Kurukshetra*, 72(4), 41–46.
+
+6. Samanta, D., & **Nigam, N.** (2023). Public Awareness About Renewable Energy Sources. *Kurukshetra*, 71(4), 28–33.
+
+7. Kumari, R., **Nigam, N.**, & Verma, R. (2022). Swasthika: Reworking on Marketing-Mix. In Rajagopal & R. Behl (Eds.), *Inclusive Businesses in Developing Economies: Converging People, Profit, and Corporate Citizenship* (pp. 399–407). Springer. [https://doi.org/10.1007/978-3-031-12217-0_20](https://doi.org/10.1007/978-3-031-12217-0_20)
+
+8. Kumar, A., **Nigam, N.**, & Shrivastava, S. (2022). Gender-Based Violence and COVID-19: The Indian Scenario. In S. R. Mahapatro (Ed.), *COVID-19 & Socioeconomic Challenges in India*. Bookwell.
+
+## Working papers
+
+1. How do Consumer Preferences Shape EV Adoption in Developing Economies? Policy Insights from Choice Experiment in Bihar (with Sibananda Senapati and Debabrata Samanta)
+
+2. Do Institutions Matter for Agricultural Scheme Effectiveness? Evidence from Beneficiary Households in Bihar, India (with Sibananda Senapati, Ranjit Tiwari and Santosh Kumar)
+
+3. Breaking Barriers at the Worksite: Female Supervision and Women's Participation in Public Employment Programs (with Atul Kumar)
+
+4. Fostering Energy Transition: Electric Vehicle Policies in India with Bihar's Emphasis (with Sibananda Senapati and Debabrata Samanta)
+
+## Consultancy and sponsored research
+
+1. **Determinants of Climate-Smart Agriculture Adoption: Behavioral and Policy Evidence from Indian States**\
+   Funded by: Indian Council of Social Science Research\
+   Status: Ongoing\
+   Role: Project Director
+
+2. **Farmers' Preference for Climate Resilient Agriculture Interventions in Aspirational Blocks of Bihar: A Choice Experiment Approach**\
+   Funded by: Planning and Development Department, Government of Bihar under State Support Mission (SSM), NITI Aayog, Govt. of India\
+   Period: February 2026 – March 2026\
+   Role: Co-Principal Investigator (Co-PI)
+
+3. **Capacity Development Programme for Indian Universities (Rapid Round III)**\
+   Funded by: Development Monitoring & Evaluation Office (DMEO), NITI Aayog, Govt. of India\
+   Period: October 2025 – April 2026\
+   Role: Coordinator
+
+4. **Urban Biodiversity Governance and Management for Bihar**\
+   Funded by: Bihar State Biodiversity Board (BSBB), Government of Bihar\
+   Status: Ongoing\
+   Role: Co-Principal Investigator (Co-PI)
+
+5. **Study on Harvesting, Collection, Trade, Marketing and Value Addition of Biological Resources**\
+   Funded by: Bihar State Biodiversity Board (BSBB), Government of Bihar\
+   Status: Ongoing\
+   Role: Co-Principal Investigator (Co-PI)
+
+6. **Entrepreneurship and Skill Development Programmes (Advanced MDP, EAP & MDP)**\
+   Funded by: Ministry of MSME, Government of India\
+   Period: July 2025 – March 2026\
+   Role: Co-Coordinator
+
+## Research grant
+
+::: {.cv-row}
+[Indian Council of Social Science Research]{.cv-what}
+
+[2026]{.cv-when}
+
+[Determinants of Climate-Smart Agriculture Adoption: Behavioral and Policy Evidence from Indian States]{.cv-where}
+:::
+
+## Conference and seminar talks
+
+- **2026:** Behavioural Environmental Economics and Policy (BEEP) Workshop 2026 [Accepted]; Eighth Regional Workshop on CSR, focusing on select Aspirational Districts of Bihar and Jharkhand
+- **2025:** National Seminar on Building Resilience: Sustainability, Nutrition, and Livelihoods in Indian Agriculture
+- **2024:** BREW India; International Conference on Public Policy and Management; Twelfth INSEE Biennial Conference; Policy Dialogue on Energy Transition in Eastern India
+- **2023:** ISEE Biennial Conference [Virtual]; BREW India; Research Scholars' Day, IIT Kanpur
+- **2022:** National Conference on Appropriate Technologies for Rural India; International Conference on Management Cases; International Conference on Sustainable Goals; National Seminar on COVID-19 & SDGs
+
+Talk titles and hosts are listed on the [Talks](talks.qmd) page.
+
+## Professional activities
+
+- **Institution building:** Alumni Coordinator, Alumni Committee, CIMP
+- **Journal refereeing:** *Sustainable Cities and Society* (Elsevier), *Heliyon* (Elsevier)
+- **Executive education:** Delivered MDPs and FDPs on applied research methods, evidence-based policy analysis, causal inference, discrete choice experiments, survey design, and data analytics.
