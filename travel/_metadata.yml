@@ -1,0 +1,4 @@
+body-classes: trip-page
+lightbox:
+  match: auto
+  loop: true

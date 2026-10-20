@@ -1,0 +1,75 @@
+---
+title: "Research"
+description: "Journal articles, working papers, teaching cases and funded research."
+listing:
+  - id: articles
+    contents: data/publications.yml
+    template: _templates/pubs.ejs
+    include:
+      type: article
+    sort: "year desc"
+    page-size: 200
+  - id: working
+    contents: data/publications.yml
+    template: _templates/pubs.ejs
+    include:
+      type: working
+    sort: "order"
+    page-size: 200
+  - id: cases
+    contents: data/publications.yml
+    template: _templates/pubs.ejs
+    include:
+      type: case
+    sort: "year desc"
+    page-size: 200
+  - id: chapters
+    contents: data/publications.yml
+    template: _templates/pubs.ejs
+    include:
+      type: chapter
+    sort: "year desc"
+    page-size: 200
+  - id: magazine
+    contents: data/publications.yml
+    template: _templates/pubs.ejs
+    include:
+      type: magazine
+    sort: "year desc"
+    page-size: 200
+---
+
+## Journal articles
+
+::: {#articles}
+:::
+
+## Working papers
+
+::: {#working}
+:::
+
+## Research grant
+
+::: {.entry}
+[Determinants of climate-smart agriculture adoption: Behavioral and policy evidence from Indian states]{.entry-head}
+
+[Indian Council of Social Science Research, 2026. Project Director.]{.entry-sub}
+:::
+
+## Teaching cases
+
+::: {#cases}
+:::
+
+## Book chapters
+
+::: {#chapters}
+:::
+
+## Policy writing
+
+Articles in *Kurukshetra*, the Government of India's journal on rural development.
+
+::: {#magazine}
+:::

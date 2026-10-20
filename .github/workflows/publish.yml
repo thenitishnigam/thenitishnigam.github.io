@@ -1,0 +1,46 @@
+# Renders the Quarto site and publishes it to GitHub Pages on every push to master.
+# One-time setup: repo Settings > Pages > Build and deployment > Source: "GitHub Actions".
+name: Publish website
+
+on:
+  push:
+    branches: [master, main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v7
+
+      - name: Install Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render the site
+        run: quarto render
+
+      - name: Upload the rendered site
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

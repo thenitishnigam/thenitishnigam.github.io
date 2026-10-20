@@ -1,0 +1,13 @@
+---
+title: "Talks"
+description: "Conference presentations, invited talks and public lectures."
+listing:
+  id: talks
+  contents: data/talks.yml
+  template: _templates/talks.ejs
+  sort: "sortdate desc"
+  page-size: 200
+---
+
+::: {#talks}
+:::

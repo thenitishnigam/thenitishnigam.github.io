@@ -1,0 +1,14 @@
+<% if (items.length === 0) { %>
+<p class="empty-note">Photo essays from the road will appear here soon.</p>
+<% } %>
+<div class="trip-grid">
+<% for (const item of items) { %>
+<div class="trip">
+<a href="<%- item.path %>">
+<% if (item.image) { %><img src="<%- item.image %>" alt="<%= item['image-alt'] || item.title %>" loading="lazy"><% } %>
+<p class="trip-title"><%= item.title %></p>
+<p class="trip-meta"><%= item.place %><% if (item.place && item.date) { %>, <% } %><%= item.date %></p>
+</a>
+</div>
+<% } %>
+</div>

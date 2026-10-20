@@ -1,0 +1,14 @@
+---
+title: "Travel and photography"
+description: "Places I've walked through, mostly with a camera."
+listing:
+  id: trips
+  contents: "*/index.qmd"
+  template: ../_templates/trips.ejs
+  sort: "date desc"
+  date-format: "MMMM YYYY"
+  page-size: 100
+---
+
+::: {#trips}
+:::

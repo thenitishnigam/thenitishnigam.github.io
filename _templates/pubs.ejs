@@ -1,0 +1,33 @@
+<ol class="pub-list">
+<% for (const item of items) { %>
+  <li class="pub">
+    <p class="pub-title">
+      <% if (item.link) { %><a href="<%- item.link %>"><%= item.title %></a><% } else { %><%= item.title %><% } %>
+    </p>
+    <% if (item.authors) {
+         const a = String(item.authors), me = "Nigam, N.", i = a.indexOf(me); %>
+      <p class="pub-authors"><% if (i >= 0) { %><%= a.slice(0, i) %><strong><%= me %></strong><%= a.slice(i + me.length) %><% } else { %><%= a %><% } %></p>
+    <% } %>
+    <% if (item.coauthors) { %><p class="pub-authors"><%= item.coauthors %></p><% } %>
+    <% if (item.venue || item.year) { %>
+      <p class="pub-venue"><% if (item.venue) { %><em><%= item.venue %></em><% } %><% if (item.details) { %>, <%= item.details %><% } %><% if (item.year) { %> (<%= item.year %>)<% } %></p>
+    <% } %>
+    <% if (item.note) { %><p class="pub-note"><%= item.note %></p><% } %>
+    <% if (item.doi || item.pdf || item.slides || item.code || item.media) { %>
+      <p class="pub-links">
+        <% if (item.doi) { %><a href="https://doi.org/<%- item.doi %>">DOI</a><% } %>
+        <% if (item.pdf) { %><a href="<%- item.pdf %>">PDF</a><% } %>
+        <% if (item.slides) { %><a href="<%- item.slides %>">Slides</a><% } %>
+        <% if (item.code) { %><a href="<%- item.code %>">Code and data</a><% } %>
+        <% if (item.media) { %><a href="<%- item.media %>">Coverage</a><% } %>
+      </p>
+    <% } %>
+    <% if (item.abstract) { %>
+      <details>
+        <summary>Abstract</summary>
+        <p><%= item.abstract %></p>
+      </details>
+    <% } %>
+  </li>
+<% } %>
+</ol>

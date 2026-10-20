@@ -1,0 +1,15 @@
+---
+title: "Writing"
+description: "Notes, op-eds and short pieces on economics and policy in eastern India."
+listing:
+  id: posts
+  contents: "*/index.qmd"
+  template: ../_templates/posts.ejs
+  sort: "date desc"
+  date-format: "D MMM YYYY"
+  page-size: 100
+  feed: true
+---
+
+::: {#posts}
+:::

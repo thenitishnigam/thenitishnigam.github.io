@@ -1,0 +1,114 @@
+# One entry per item. To add a paper, copy an entry and edit it.
+# Fields:
+#   title      (required)
+#   authors    full author list; "Nigam, N." is set in bold automatically
+#   coauthors  for working papers, e.g. "with A and B"
+#   venue      journal, book, publisher or series
+#   details    volume, issue, pages, article number
+#   year
+#   type       article | case | chapter | magazine | working | progress
+#   note       e.g. journal rankings
+#   link       where the title should point
+#   doi        just the DOI, e.g. 10.1016/j.jenvman.2024.122817
+#   pdf        a file in files/papers/, e.g. files/papers/ev-dce.pdf
+#   slides, code, media   optional links
+#   abstract   shown under an "Abstract" toggle
+#   featured   true to show on the home page
+#   home-order position on the home page (1 = first)
+
+# ---------- Journal articles ----------
+- title: "Consumer behavior towards new energy vehicles: Developing a theoretical framework"
+  authors: "Nigam, N., Senapati, S., Samanta, D., and Sharma, A."
+  venue: "Journal of Environmental Management"
+  details: "370, 122817"
+  year: 2024
+  type: article
+  note: "ABDC A, Scopus Q1"
+  link: "https://doi.org/10.1016/j.jenvman.2024.122817"
+  doi: "10.1016/j.jenvman.2024.122817"
+  featured: true
+  home-order: 1
+
+- title: "Determinants of electric vehicle adoption: Insights from Indian states"
+  authors: "Nigam, N., Samanta, D., and Senapati, S."
+  venue: "International Journal of Social Economics"
+  details: "52(1), 91–107"
+  year: 2024
+  type: article
+  note: "ABDC B, Scopus Q1"
+  link: "https://doi.org/10.1108/IJSE-06-2023-0479"
+  doi: "10.1108/IJSE-06-2023-0479"
+  featured: true
+  home-order: 2
+
+# ---------- Working papers ----------
+- title: "How do consumer preferences shape EV adoption in developing economies? Policy insights from choice experiment in Bihar"
+  coauthors: "with Sibananda Senapati and Debabrata Samanta"
+  type: working
+  order: 1
+  featured: true
+  home-order: 3
+
+- title: "Do institutions matter for agricultural scheme effectiveness? Evidence from beneficiary households in Bihar, India"
+  coauthors: "with Sibananda Senapati, Ranjit Tiwari and Santosh Kumar"
+  type: working
+  order: 2
+  featured: true
+  home-order: 4
+
+- title: "Breaking barriers at the worksite: Female supervision and women's participation in public employment programs"
+  coauthors: "with Atul Kumar"
+  type: working
+  order: 3
+
+- title: "Fostering energy transition: Electric vehicle policies in India with Bihar's emphasis"
+  coauthors: "with Sibananda Senapati and Debabrata Samanta"
+  type: working
+  order: 4
+
+# ---------- Teaching cases ----------
+- title: "Mediversal Hospital: Segmentation, targeting, and positioning dilemma"
+  authors: "Verma, R., Gangwani, K., and Nigam, N."
+  venue: "Ivey Publishing"
+  year: 2025
+  type: case
+  link: "https://www.iveypublishing.ca/s/product/mediversal-hospital-segmentation-targeting-and-positioning-dilemma/01tOF000008Kr3ZYAS"
+
+- title: "Tax Mitra: Easing financial access in rural India"
+  authors: "Nigam, N., Verma, R., and Sharma, A."
+  venue: "The Case Centre"
+  year: 2022
+  type: case
+  link: "https://www.thecasecentre.org/products/view?id=182589"
+
+# ---------- Book chapters ----------
+- title: "Swasthika: Reworking on marketing-mix"
+  authors: "Kumari, R., Nigam, N., and Verma, R."
+  venue: "Inclusive Businesses in Developing Economies: Converging People, Profit, and Corporate Citizenship"
+  details: "edited by Rajagopal and R. Behl, Springer, pp. 399–407"
+  year: 2022
+  type: chapter
+  link: "https://doi.org/10.1007/978-3-031-12217-0_20"
+  doi: "10.1007/978-3-031-12217-0_20"
+
+- title: "Gender-based violence and COVID-19: The Indian scenario"
+  authors: "Kumar, A., Nigam, N., and Shrivastava, S."
+  venue: "COVID-19 and Socioeconomic Challenges in India"
+  details: "edited by S. R. Mahapatro, Bookwell"
+  year: 2022
+  type: chapter
+
+# ---------- Policy writing ----------
+- title: "Opportunities in dairy and fisheries sector"
+  authors: "Samanta, D., and Nigam, N."
+  venue: "Kurukshetra"
+  details: "72(4), 41–46"
+  year: 2024
+  type: magazine
+
+- title: "Public awareness about renewable energy sources"
+  authors: "Samanta, D., and Nigam, N."
+  venue: "Kurukshetra"
+  details: "71(4), 28–33"
+  year: 2023
+  type: magazine

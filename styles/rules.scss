@@ -1,0 +1,322 @@
+/*-- scss:defaults --*/
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..800;1,400..800&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+
+/*-- scss:rules --*/
+
+// ---------- Base ----------
+body {
+  font-feature-settings: "onum" 1, "kern" 1;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: rgba($river, 0.4);
+  &:hover { text-decoration-color: currentColor; }
+}
+
+:focus-visible {
+  outline: 2px solid $mustard;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+h1, h2, h3, h4 { color: $ink-strong; letter-spacing: -0.005em; }
+h2 {
+  border-bottom: none !important;
+  font-size: 1.55rem;
+  margin-top: 2.6rem;
+  margin-bottom: 1rem;
+}
+h3 { font-size: 1.18rem; margin-top: 1.6rem; }
+
+.sans, .navbar, .nav-footer, .listing-meta, figcaption,
+.pub-links, .talk-date, .post-date, .hero-role, .hero-links, details summary {
+  font-family: $font-family-sans-serif;
+  font-feature-settings: "lnum" 1;
+}
+
+// ---------- Navbar ----------
+.navbar {
+  border-bottom: 1px solid $hair;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  .navbar-brand, .navbar-title {
+    font-family: $font-family-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: $ink-strong !important;
+  }
+  .nav-link {
+    font-size: 1rem;
+    color: $ink !important;
+    padding-bottom: 0.15rem;
+    border-bottom: 2px solid transparent;
+    &:hover { color: $river !important; }
+    &.active {
+      color: $ink-strong !important;
+      border-bottom-color: $mustard;
+    }
+  }
+}
+
+// ---------- Page titles ----------
+#title-block-header {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  .title {
+    font-size: clamp(2.1rem, 4.5vw, 2.8rem);
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  .subtitle, .description {
+    font-size: 1.15rem;
+    color: $muted;
+    margin-top: 0.6rem;
+    max-width: 38rem;
+  }
+}
+.quarto-title-meta { display: none; }
+
+.lede {
+  font-size: 1.15rem;
+  max-width: 40rem;
+}
+
+.muted { color: $muted; }
+
+// ---------- Home ----------
+// The name is set as the hero heading, so the standard title block is hidden.
+.home #title-block-header { display: none; }
+
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 3.5rem;
+  align-items: start;
+  margin-top: 2.5rem;
+  margin-bottom: 3.5rem;
+}
+.hero-name {
+  font-size: clamp(2.8rem, 7vw, 4.6rem);
+  font-weight: 800;
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.9rem 0;
+}
+.hero-role {
+  font-size: 1.12rem;
+  color: $muted;
+  line-height: 1.45;
+  margin-bottom: 1.6rem;
+}
+.hero-bio p { max-width: 36rem; }
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.4rem;
+  margin-top: 1.4rem;
+  font-size: 1.02rem;
+  p { margin: 0; display: contents; }
+}
+.hero-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 3px;
+  background: $paddy-tint;
+}
+
+.themes {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 300px);
+  gap: 3.5rem;
+  align-items: start;
+  margin-bottom: 3rem;
+  h2 { margin-top: 0; }
+}
+.theme {
+  margin-bottom: 1.6rem;
+  h3 {
+    margin: 0 0 0.35rem 0;
+    font-size: 1.2rem;
+    &::before {
+      content: "";
+      display: block;
+      width: 1.6rem;
+      height: 3px;
+      background: $mustard;
+      margin-bottom: 0.55rem;
+    }
+  }
+  p { margin: 0; max-width: 34rem; }
+}
+
+// ---------- Fieldwork map ----------
+.field-map {
+  margin: 0.4rem 0 0 0;
+  svg { width: 100%; max-width: 300px; height: auto; display: block; }
+  .nb  { fill: none; stroke: $hair; stroke-width: 1; }
+  .st  { fill: $paddy-tint; stroke: $ink-strong; stroke-width: 1.1; stroke-linejoin: round; }
+  .lbl { font-family: $font-family-sans-serif; font-size: 17px; font-weight: 500; fill: $ink-strong; }
+  .pin { fill: $mustard; stroke: $ink-strong; stroke-width: 1.5; }
+  .pin-lbl { font-family: $font-family-sans-serif; font-size: 15px; fill: $ink; }
+  figcaption { font-size: 0.92rem; color: $muted; margin-top: 0.6rem; }
+}
+
+// ---------- Publication lists ----------
+.pub-list, .talk-list, .post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+.pub {
+  margin-bottom: 1.6rem;
+  max-width: 44rem;
+  p { margin: 0; }
+  &:last-child { margin-bottom: 0; }
+}
+.pub-title {
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: $ink-strong;
+  a { color: $ink-strong; font-weight: 600; }
+}
+.pub-authors { color: $ink; }
+.quarto-listing { margin-bottom: 0; }
+.quarto-listing .pub-list, .quarto-listing .talk-list, .quarto-listing .post-list { margin-bottom: 0.5rem; }
+.listing-no-matching, .quarto-listing-container-custom + .listing-no-matching { display: none; }
+.pub-venue { color: $muted; }
+.pub-note {
+  font-family: $font-family-sans-serif;
+  font-size: 0.9rem;
+  color: $muted;
+}
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1.1rem;
+  margin-top: 0.3rem !important;
+  font-size: 0.95rem;
+}
+details {
+  margin-top: 0.35rem;
+  summary {
+    font-size: 0.95rem;
+    color: $river;
+    cursor: pointer;
+    width: fit-content;
+  }
+  p { margin-top: 0.5rem !important; color: $ink; max-width: 40rem; }
+}
+
+// ---------- Dated lists (talks, writing) ----------
+.talk, .post {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  gap: 1.2rem;
+  margin-bottom: 1.3rem;
+  max-width: 46rem;
+  p { margin: 0; }
+}
+.talk-date, .post-date {
+  color: $muted;
+  font-size: 0.98rem;
+  padding-top: 0.12rem;
+  white-space: nowrap;
+}
+.talk-title, .post-title { font-weight: 600; color: $ink-strong; line-height: 1.35; a { color: $ink-strong; } }
+.talk-event { color: $ink; font-style: italic; }
+.post-desc { color: $muted; }
+.talk-host { color: $muted; }
+.talk-note {
+  font-family: $font-family-sans-serif;
+  font-size: 0.9rem;
+  color: $muted;
+}
+
+h2.year-head {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0.5rem 0 1.1rem 0;
+}
+.talk-year + .talk-year h2.year-head { margin-top: 2.4rem; }
+
+// ---------- Travel ----------
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem 1.6rem;
+  margin: 1rem 0 3rem 0;
+}
+.trip {
+  a { text-decoration: none; color: inherit; display: block; }
+  img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 3px;
+    background: $paddy-tint;
+    display: block;
+  }
+  a:hover .trip-title { text-decoration: underline; text-decoration-color: $mustard; text-decoration-thickness: 2px; }
+}
+.trip p { margin: 0; }
+.trip .trip-title { font-weight: 600; font-size: 1.1rem; margin-top: 0.6rem; color: $ink-strong; }
+.trip-meta { font-family: $font-family-sans-serif; color: $muted; font-size: 0.95rem; }
+
+.gallery {
+  img { border-radius: 2px; }
+  figcaption { font-size: 0.92rem; color: $muted; }
+}
+
+.empty-note {
+  color: $muted;
+  font-style: italic;
+}
+
+// ---------- Engagements / teaching blocks ----------
+.entry {
+  margin-bottom: 1.5rem;
+  max-width: 44rem;
+  p { margin: 0; }
+  .entry-head { font-weight: 600; color: $ink-strong; }
+  .entry-sub { color: $muted; }
+}
+
+.btn-cv {
+  display: inline-block;
+  font-family: $font-family-sans-serif;
+  font-weight: 500;
+  padding: 0.5rem 1.1rem;
+  border: 1.5px solid $river;
+  border-radius: 3px;
+  text-decoration: none;
+  margin: 0.5rem 0 1.5rem 0;
+  &:hover { background: $river; color: $mist; }
+}
+
+// ---------- Footer ----------
+.nav-footer {
+  border-top: 1px solid $hair;
+  font-size: 0.92rem;
+  color: $muted;
+}
+
+// ---------- Small screens ----------
+@media (max-width: 860px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+    margin-top: 1.2rem;
+  }
+  .hero-photo { order: -1; max-width: 150px; }
+  .themes { grid-template-columns: 1fr; gap: 1.5rem; }
+  .field-map svg { max-width: 260px; }
+}
+@media (max-width: 520px) {
+  .talk, .post { grid-template-columns: 1fr; gap: 0.1rem; }
+}

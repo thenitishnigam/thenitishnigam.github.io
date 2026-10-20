@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+// Dark variant: the same river at dusk.
+
+$mist:        #111A18;
+$ink:         #D9E3DE;
+$ink-strong:  #EEF3F0;
+$river:       #7CC3AF;
+$muted:       #98AAA2;
+$hair:        #2A3935;
+$paddy-tint:  #22362E;
+$mustard:     #E8B530;
+$surface:     #18231F;
+
+$body-bg: $mist;
+$body-color: $ink;
+$link-color: $river;
+$primary: $river;
+$headings-color: $ink-strong;
+
+$navbar-bg: $mist;
+$navbar-fg: $ink;
+$navbar-hl: $river;
+$footer-bg: $mist;
+$footer-fg: $muted;
+$code-bg: $surface;
+
+$font-family-sans-serif: "Alegreya Sans", "Gill Sans", "Segoe UI", sans-serif;
+$font-family-serif: "Alegreya", Georgia, "Times New Roman", serif;
+$font-family-base: $font-family-serif;
+$headings-font-family: $font-family-serif;
+$font-size-root: 19px;
+$line-height-base: 1.6;
+$headings-font-weight: 600;

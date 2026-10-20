@@ -1,0 +1,68 @@
+---
+title: "Curriculum vitae"
+description: "A summary below. The full CV is a PDF."
+---
+
+[Download the full CV (PDF)](files/cv.pdf){.btn-cv}
+
+## Positions
+
+::: {.entry}
+[Assistant Professor, Economics]{.entry-head}
+
+[Chandragupt Institute of Management Patna. June 2025 to present.]{.entry-sub}
+:::
+
+::: {.entry}
+[Research Associate]{.entry-head}
+
+[State Transformation Cell, State Support Mission (NITI Aayog), Patna. October 2024 to June 2025.]{.entry-sub}
+:::
+
+## Education
+
+::: {.entry}
+[Fellow Programme in Management (FPM, PhD), Economics]{.entry-head}
+
+[Chandragupt Institute of Management Patna, 2020 to 2025]{.entry-sub}
+:::
+
+::: {.entry}
+[MA in Economics]{.entry-head}
+
+[Central University of South Bihar, Gaya, 2018 to 2020]{.entry-sub}
+:::
+
+::: {.entry}
+[BA (Hons) in Economics]{.entry-head}
+
+[Patna University, 2015 to 2018]{.entry-sub}
+:::
+
+## Research areas
+
+Development economics, behavioural economics, environmental economics and public policy.
+
+## Grants
+
+::: {.entry}
+[Indian Council of Social Science Research, 2026]{.entry-head}
+
+[Determinants of climate-smart agriculture adoption: Behavioral and policy evidence from Indian states. Project Director.]{.entry-sub}
+:::
+
+## Service
+
+::: {.entry}
+[Referee]{.entry-head}
+
+[*Sustainable Cities and Society* (Elsevier), *Heliyon* (Elsevier)]{.entry-sub}
+:::
+
+::: {.entry}
+[Alumni Coordinator]{.entry-head}
+
+[Alumni Committee, Chandragupt Institute of Management Patna]{.entry-sub}
+:::
+
+Publications, working papers and talks are listed in full on the [Research](research.qmd) and [Talks](talks.qmd) pages.

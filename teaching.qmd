@@ -1,0 +1,44 @@
+---
+title: "Teaching and training"
+description: "Courses at CIMP, executive education and faculty development."
+---
+
+## Courses at CIMP
+
+::: {.entry}
+[Business Economics]{.entry-head}
+
+[MBA. Includes an induction module on Bihar's economy, its GDP and sectoral structure, built from NSO and RBI data.]{.entry-sub}
+:::
+
+::: {.entry}
+[Business Marketing]{.entry-head}
+
+[MBA. Business-to-business marketing with Indian industrial examples, following Hutt and Speh.]{.entry-sub}
+:::
+
+## Executive education and faculty development
+
+I design and deliver management and faculty development programmes on applied research methods, evidence-based policy analysis, causal inference, discrete choice experiments, survey design and data analytics.
+
+::: {.entry}
+[Capacity Development Programme for Indian Universities, Rapid Round III]{.entry-head}
+
+[Development Monitoring and Evaluation Office (DMEO), NITI Aayog. Coordinator, October 2025 to April 2026.]{.entry-sub}
+:::
+
+::: {.entry}
+[Entrepreneurship and Skill Development Programmes (Advanced MDP, EAP and MDP)]{.entry-head}
+
+[Ministry of MSME, Government of India. Co-Coordinator, July 2025 to March 2026.]{.entry-sub}
+:::
+
+::: {.entry}
+[Research Methodology and Applied R]{.entry-head}
+
+[Four-session faculty development programme, Amity University Patna, with hands-on R worksheets.]{.entry-sub}
+:::
+
+## Research assistants and interns
+
+I take on undergraduate interns and research assistants on my projects. Assignments are open-ended by design: you get a real question and a messy dataset, and the work is judged on the choices you make with it.

@@ -1,0 +1,16 @@
+---
+title: "London"
+place: "London, United Kingdom"
+date: 2026-09-12
+image: aldwych-lse.jpg
+image-alt: "The London School of Economics on Aldwych, with plane trees in morning light"
+description: "A September day between Aldwych and Waterloo."
+---
+
+::: {.gallery layout-ncol=1}
+![Morning on Aldwych, outside the London School of Economics](aldwych-lse.jpg){group="london" fig-alt="LSE buildings on Aldwych with plane trees and a quiet street"}
+
+![The LSE corner on Aldwych](aldwych-corner.jpg){group="london" fig-alt="Corner of an LSE building on Aldwych with a car passing in the foreground"}
+
+![Waterloo at midday](waterloo.jpg){group="london" fig-alt="Bus stop near Waterloo station with a red double-decker bus and railway arches"}
+:::

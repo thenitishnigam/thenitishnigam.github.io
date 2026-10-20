@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - files/
+    - .nojekyll
+
+website:
+  title: "Nitish Nigam"
+  site-url: https://thenitishnigam.github.io
+  repo-url: https://github.com/thenitishnigam/thenitishnigam.github.io
+  description: "Economist working on sustainability transitions, technology adoption and climate resilience in eastern India."
+  favicon: images/favicon.svg
+  open-graph: true
+  page-navigation: false
+  back-to-top-navigation: false
+  navbar:
+    pinned: false
+    collapse-below: lg
+    right:
+      - text: Research
+        href: research.qmd
+      - text: Policy
+        href: policy.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Talks
+        href: talks.qmd
+      - text: Writing
+        href: writing/index.qmd
+      - text: Travel
+        href: travel/index.qmd
+      - text: CV
+        href: cv.qmd
+  page-footer:
+    left: "© 2026 Nitish Nigam"
+    right: "Made with [Quarto](https://quarto.org) and hosted on GitHub Pages"
+
+format:
+  html:
+    theme:
+      light: [default, styles/light.scss, styles/rules.scss]
+      dark: [default, styles/dark.scss, styles/rules.scss]
+    respect-user-color-scheme: true
+    toc: false
+    smooth-scroll: false
+    anchor-sections: false
+    lightbox: true
+    link-external-newwindow: false
+    title-block-style: plain

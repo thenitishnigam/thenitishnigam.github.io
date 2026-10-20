@@ -1,0 +1,46 @@
+---
+title: "Policy and consulting"
+description: "Sponsored research and advisory work with government agencies."
+---
+
+::: {.lede}
+Alongside academic research, I lead and contribute to studies commissioned by government agencies, mostly in Bihar. Before joining the faculty I spent eight months inside government as a Research Associate with the State Transformation Cell of the State Support Mission (NITI Aayog) in Patna.
+:::
+
+## Sponsored research
+
+::: {.entry}
+[Determinants of climate-smart agriculture adoption: Behavioral and policy evidence from Indian states]{.entry-head}
+
+[Indian Council of Social Science Research. Project Director, ongoing.]{.entry-sub}
+:::
+
+::: {.entry}
+[Farmers' preference for climate resilient agriculture interventions in aspirational blocks of Bihar: A choice experiment approach]{.entry-head}
+
+[Planning and Development Department, Government of Bihar, under the State Support Mission, NITI Aayog. Co-Principal Investigator, February to March 2026.]{.entry-sub}
+:::
+
+::: {.entry}
+[Urban biodiversity governance and management for Bihar]{.entry-head}
+
+[Bihar State Biodiversity Board, Government of Bihar. Co-Principal Investigator, ongoing.]{.entry-sub}
+:::
+
+::: {.entry}
+[Study on harvesting, collection, trade, marketing and value addition of biological resources]{.entry-head}
+
+[Bihar State Biodiversity Board, Government of Bihar. Co-Principal Investigator, ongoing.]{.entry-sub}
+:::
+
+## In government
+
+::: {.entry}
+[Research Associate, State Transformation Cell]{.entry-head}
+
+[State Support Mission (NITI Aayog), Patna. October 2024 to June 2025.]{.entry-sub}
+:::
+
+## Capacity building
+
+Programmes I coordinate for government ministries are listed under [Teaching and training](teaching.qmd).

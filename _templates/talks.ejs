@@ -1,0 +1,30 @@
+<%
+const groups = [];
+for (const item of items) {
+  const last = groups[groups.length - 1];
+  if (last && last.year === item.year) { last.items.push(item); }
+  else { groups.push({ year: item.year, items: [item] }); }
+}
+%>
+<% for (const g of groups) { %>
+<section class="talk-year">
+<h2 class="year-head"><%= g.year %></h2>
+<ul class="talk-list">
+<% for (const item of g.items) { %>
+<li class="talk">
+<p class="talk-date"><%= item.when %></p>
+<div>
+<% if (item.title) { %>
+<p class="talk-title"><% if (item.slides) { %><a href="<%- item.slides %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></p>
+<p class="talk-event"><%= item.event %></p>
+<% } else { %>
+<p class="talk-title"><%= item.event %></p>
+<% } %>
+<% if (item.host) { %><p class="talk-host"><%= item.host %></p><% } %>
+<% if (item.note) { %><p class="talk-note"><%= item.note %></p><% } %>
+</div>
+</li>
+<% } %>
+</ul>
+</section>
+<% } %>

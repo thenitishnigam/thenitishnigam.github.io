@@ -1,0 +1,23 @@
+---
+# HOW TO ADD A TRIP
+# 1. Copy this folder and rename it, e.g. travel/2026-sikkim/
+#    (folders starting with "_" are ignored, so the copy must not start with "_").
+# 2. Put your photos in that folder. Resize to about 2000 px on the long side first.
+# 3. Edit the fields below and the photo list.
+title: "Trip title"
+place: "Place, State"
+date: 2026-01-15
+image: cover.jpg              # the photo shown on the Travel page
+image-alt: "Describe the cover photo"
+description: "One or two sentences about the trip."
+---
+
+A short note about the trip, if you like.
+
+::: {.gallery layout-ncol=3}
+![Caption for photo one](photo-1.jpg){group="trip"}
+
+![Caption for photo two](photo-2.jpg){group="trip"}
+
+![Caption for photo three](photo-3.jpg){group="trip"}
+:::

@@ -1,0 +1,112 @@
+# One entry per talk. Order on the page comes from sortdate (newest first).
+# Fields:
+#   title     the talk title (leave out if there isn't one yet)
+#   event     conference, workshop or seminar
+#   host      organiser, optional
+#   when      shown as written, e.g. "Dec 2024"
+#   year      used for the year headings
+#   sortdate  YYYY-MM-DD
+#   note      e.g. "Accepted", "Invited", "Virtual"
+#   slides    optional link
+
+- event: "Behavioural Environmental Economics and Policy (BEEP) Workshop 2026"
+  when: "2026"
+  year: 2026
+  sortdate: 2026-12-01
+  note: "Accepted"
+
+- event: "Eighth Regional Workshop on CSR, focusing on select Aspirational Districts of Bihar and Jharkhand"
+  when: "2026"
+  year: 2026
+  sortdate: 2026-06-01
+
+- title: "Do institutions matter for agricultural scheme effectiveness? Evidence from beneficiary households in Bihar, India"
+  event: "National Seminar on Building Resilience: Integrating Sustainability, Nutrition, and Livelihoods in Indian Agriculture"
+  host: "Nabakrushna Choudhury Centre for Development Studies, under the Shree Anna Abhiyan"
+  when: "Jul 2025"
+  year: 2025
+  sortdate: 2025-07-10
+
+- title: "How do consumer preferences shape EV adoption in developing economies? Policy insights from choice experiment in Bihar"
+  event: "Behavioural Research in Economics Workshop (BREW) India"
+  host: "Ashoka University, with the Economic Science Association"
+  when: "Dec 2024"
+  year: 2024
+  sortdate: 2024-12-15
+
+- title: "From review to publication: Crafting systematic literature reviews and manuscript writing"
+  event: "Department of Economic Studies and Policy, Central University of South Bihar, Gaya"
+  when: "Oct 2024"
+  year: 2024
+  sortdate: 2024-10-25
+  note: "Invited session"
+
+- title: "Understanding preference of consumers of Bihar on new energy vehicles: A behavioral experiment"
+  event: "Second International Conference on Public Policy and Management (ICPPM 2024)"
+  host: "Chandragupt Institute of Management Patna, with Georgia State University"
+  when: "Jun 2024"
+  year: 2024
+  sortdate: 2024-06-17
+
+- title: "Paving road to sustainability: Discrete choice experiments to explore consumer preferences for electric vehicles"
+  event: "Twelfth INSEE Biennial Conference"
+  host: "Indian Society for Ecological Economics"
+  when: "Feb 2024"
+  year: 2024
+  sortdate: 2024-01-31
+
+- title: "Fostering energy transition: Electric vehicle policies in India with Bihar's emphasis"
+  event: "Policy Dialogue on Energy Transition in Eastern India: Issues and Challenges"
+  host: "DST-Centre for Policy Research, NISER Bhubaneswar"
+  when: "Jan 2024"
+  year: 2024
+  sortdate: 2024-01-23
+
+- title: "Electric vehicles adoption: A choice experiment approach to understanding consumer behaviour"
+  event: "Behavioural Research in Economics Workshop (BREW) India"
+  host: "IIT Bombay, with the Economic Science Association"
+  when: "Dec 2023"
+  year: 2023
+  sortdate: 2023-12-15
+
+- title: "Exploring the impact of electric vehicle policies in India: A quasi-experimental framework"
+  event: "Seventeenth Biennial Conference of the International Society for Ecological Economics, Colombia"
+  when: "Oct 2023"
+  year: 2023
+  sortdate: 2023-10-23
+  note: "Virtual"
+
+- title: "Going green: Understanding electric vehicle policies of India"
+  event: "Research Scholars' Day 2023"
+  host: "Department of Economic Sciences, IIT Kanpur"
+  when: "Feb 2023"
+  year: 2023
+  sortdate: 2023-02-08
+
+- title: "Gamification labs: Ready to scale-up?"
+  event: "Twelfth International Conference on Management Cases"
+  host: "Birla Institute of Management Technology"
+  when: "Dec 2022"
+  year: 2022
+  sortdate: 2022-12-01
+
+- title: "Does democracy improve the quality of life? A cross-country analysis"
+  event: "National Conference on Appropriate Technologies for Rural India"
+  host: "Chandragupt Institute of Management Patna, with NABARD"
+  when: "Nov 2022"
+  year: 2022
+  sortdate: 2022-11-06
+
+- title: "Electric vehicle adoption in India: Analysis of policy and determinants"
+  event: "International Conference on Sustainable Goals"
+  host: "IIM Bodh Gaya, with CEENRG, University of Cambridge"
+  when: "Sep 2022"
+  year: 2022
+  sortdate: 2022-09-16
+
+- title: "Gender-based violence and COVID-19: The Indian scenario"
+  event: "National Seminar on COVID-19 in India and Sustainable Development Goals: Challenges, Responses and Way Forward"
+  host: "A N Sinha Institute of Social Studies, Patna"
+  when: "Mar 2022"
+  year: 2022
+  sortdate: 2022-03-14

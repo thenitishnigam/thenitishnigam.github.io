@@ -1,0 +1,13 @@
+---
+# HOW TO WRITE A POST
+# 1. Copy this folder and rename it, e.g. writing/2026-ev-subsidies/
+#    (folders starting with "_" are ignored, so the copy must not start with "_").
+# 2. Edit the fields below and write the post in Markdown.
+# 3. Push to GitHub. The site rebuilds itself in about two minutes.
+title: "Post title"
+description: "One sentence that appears in the list of posts."
+date: 2026-10-20
+---
+
+Write the post here. Use **bold**, *italics*, [links](https://example.com),
+and images placed in the same folder: ![Caption](figure.png)
