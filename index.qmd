@@ -1,6 +1,6 @@
 ---
 title: "Nitish Nigam"
-pagetitle: "Behavioural environmental economics and public policy"
+pagetitle: "Nitish Nigam"
 body-classes: home
 description: "Nitish Nigam"
 page-layout: full
@@ -29,7 +29,7 @@ listing:
   </div>
   <div class="hero-text">
     <h1 class="hero-name">Nitish Nigam</h1>
-    <p class="hero-position">Behavioural environmental economist working on public policy</p>
+    <p class="hero-position">Behavioural Environmental Economist</p>
     <p class="hero-role">Assistant Professor of Economics, Chandragupt Institute of Management Patna</p>
     <nav class="hero-links" aria-label="Contact and profiles">
       <a class="primary" href="mailto:nitish@cimp.ac.in">Email</a>
